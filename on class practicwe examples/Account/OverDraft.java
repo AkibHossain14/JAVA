@@ -16,7 +16,7 @@ public class OverDraft extends Savings {
 	public OverDraft () {} 
 	public OverDraft (String accountNo , String accountHolderName, double balance , double interestRate ,double limit){
 	super ( accountNo,accountHolderName, balance , interestRate );
-     this.limit = limit ; 
+     setLimit(limit) ; 
 	}
     
     public void showDetails () {
