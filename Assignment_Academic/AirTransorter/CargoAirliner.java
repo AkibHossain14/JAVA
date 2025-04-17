@@ -5,7 +5,7 @@ public class CargoAirliner extends AirTransporter{
 	public CargoAirliner( String manufacturer , double maxAltitude , double maxSpeed, int maxCargoWeight ) {
 		super (manufacturer,maxAltitude,maxSpeed ) ;
 		
-		
+		setmaxCargoWeight(maxCargoWeight);
 	}
 	
 	public void setmaxCargoWeight ( int maxCargoWeight) {
